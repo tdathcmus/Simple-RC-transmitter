@@ -33,6 +33,10 @@ This project features a 4 channel RC transmitter using STM32F103C8T6 Blue Pill a
 - X: PB1 **(Roll)**<br>
 - Y: PB0 **(Elevator)**<br>
 
+
+**The data transmitted by this controller is a calibrated value based on the PWM range of 500 to 2500, which corresponds to a servo angle of 0° to 180°. You should recalibrate this value to fit your specific aircraft**
+
+  
 **Power:**<br>
 [DC-DC-Dual-Rail-Power-Supply](https://github.com/tdathcmus/DC-DC-Dual-Rail-Power-Supply-5V-3A-3.3V-1.5A)<br>
 - Connect the wires from the battery box to a switch and then to the input of the DC-DC board.<br>
